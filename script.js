@@ -30,8 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
           matches = data.beaches;
         } else if (query.includes('temple')) {
           matches = data.temples;
+        } else if (query.includes('country') || query.includes('countries')) {
+          // Flatten all cities across all countries
+          data.countries.forEach(country => {
+            matches.push(...country.cities);
+          });
         } else {
-          // Check for country matches
+          // Check for specific country name
           const matchedCountry = data.countries.find(country => 
             country.name.toLowerCase().includes(query)
           );
