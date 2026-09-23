@@ -1,0 +1,64 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=500",
+          "description": "A vibrant metropolis combining ultra-modern skyscrapers with historic temples."
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500",
+          "description": "Famous for its classical Buddhist temples, gardens, imperial palaces, and traditional wooden houses."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=500",
+          "description": "Famous for Copacabana beaches and the iconic Christ the Redeemer statue."
+        },
+        {
+          "name": "Sao Paulo, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1543059080-f29436c823a4?w=500",
+          "description": "Brazil's vibrant financial center, renowned for rich cultural institutions and gastronomy."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500",
+      "description": "An enormous Buddhist temple complex located in northern Cambodia."
+    },
+    {
+      "id": 2,
+      "name": "Taj Mahal, India",
+      "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=500",
+      "description": "An immense mausoleum of white marble, built in Agra between 1631 and 1648."
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500",
+      "description": "A small South Pacific island northwest of Tahiti surrounded by turquoise lagoon."
+    },
+    {
+      "id": 2,
+      "name": "Maldives Beach",
+      "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=500",
+      "description": "Tropical paradise featuring crystal-clear waters and luxurious overwater bungalows."
+    }
+  ]
+}
